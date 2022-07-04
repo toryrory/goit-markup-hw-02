@@ -1,0 +1,205 @@
+:root {
+    --background-white: #e5e5e5;
+    --background-dark: #2f303a;
+    --background-grey: #f5f4fa;
+    --logo-blue: #2196f3;
+    --logo-black: #000;
+    --text-black: #212121;
+    --text-white: #ffffff;
+    --contacts-grey: #757575;
+    --text-footer: #fff9;
+  }
+  
+  body {
+    font-family: 'Roboto' sans-serif;
+    color: --background-dark;
+    background-color: --background-white;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+  
+  /*top*/
+  
+  .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .logo-blue {
+    color: var(--logo-blue);
+  }
+  .logo-dark {
+    color: var(--logo-black);
+  }
+  .link {
+    color: var(--text-black);
+    font-family: 'Roboto';
+  }
+  .link:hover,
+  .link:focus {
+    color: var(--logo-blue);
+  }
+  .list {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.19;
+    list-style: none;
+  }
+  .link-contacts {
+    color: var(--contacts-grey);
+  }
+  /*h1*/
+  
+  .section-h1 {
+    background-color: var(--background-dark);
+    text-align: center;
+  }
+  .text-h1 {
+    text-align: center;
+    font-weight: 900;
+    color: var(--text-white);
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+  }
+  /*button*/
+  
+  .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    background-color: var(--logo-blue);
+    color: #ffffff;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    font-family: 'Roboto';
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  .button:hover,
+  .button:focus {
+    background-color: var(--logo-blue);
+    color: var(--text-white);
+  }
+  .button-list {
+    list-style: none;
+  }
+  .button-list .button {
+    background-color: var(--background-grey);
+    color: var(--text-black);
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    box-shadow: none;
+  }
+  /*features, portfolio*/
+  
+  .feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-style: normal;
+    color: var(--text-black);
+  }
+  .feature-text {
+    color: var(--contacts-grey);
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+  }
+  .portfolio-list {
+    cursor: pointer;
+  }
+  .portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-black);
+  }
+  .portfolio-desc {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--contacts-grey);
+  }
+  /*main*/
+  
+  .main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto';
+    color: var(--text-black);
+    font-style: normal;
+  }
+  .teammate {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--text-black);
+  }
+  .proffesion {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--contacts-grey);
+  }
+  /* Footer bg */
+  .logo-white {
+    color: var(--text-white);
+  }
+  .footer {
+    background-color: var(--background-dark);
+  }
+  .adress {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .adress-link {
+    color: var(--text-white);
+  }
+  .adress-link:hover,
+  .adress-link:focus {
+    color: var(--logo-blue);
+  }
+  .adress-mail {
+    color: var(--text-footer);
+  }
+  .adress-mail:hover,
+  .adress-mail:focus {
+    color: var(--logo-blue);
+  }
+  .adress-tel {
+    color: var(--text-footer);
+  }
+  .adress-tel:hover,
+  .adress-tel:focus {
+    color: var(--logo-blue);
+  }
