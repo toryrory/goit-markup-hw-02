@@ -12,12 +12,11 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <a class="logo logo-blue" href="/index.html" lang="en"
-          >Web<span class="logo logo-dark">Studio</span></a
-        >
-        <ul class="list">
+        <a class="logo link" href="/index.html" lang="en"
+          >Web<span class="logo-dark">Studio</span></a>
+        <ul class="list nav-list">
           <li><a class="link link-menu" href="./index.html" target="_blank">Студия</a></li>
           <li><a class="link link-menu" href="./portfolio.html" target="_blank">Портфолио</a></li>
           <li><a class="link link-menu" href="./Contacts" target="_blank">Контакты</a></li>
@@ -33,15 +32,13 @@
     <main>
       <section>
         <h1 style="display: none">Портфолио</h1>
-        <ul class="button-list">
-          <li><button class="button" type="button">Все</button></li>
-          <li><button class="button" type="button">Веб-сайты</button></li>
-          <li><button class="button" type="button">Приложения</button></li>
-          <li><button class="button" type="button">Дизайн</button></li>
-          <li><button class="button" type="button">Маркетинг</button></li>
+        <ul class="filter-list">
+          <li class="filter-item"><button class="filter-button" type="button">Все</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Веб-сайты</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Приложения</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Дизайн</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Маркетинг</button></li>
         </ul>
-      </section>
-      <section>
         <ul class="list portfolio-list">
           <li>
             <a href="" class="portfolio-link"></a>
@@ -136,20 +133,20 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo logo-blue" href="/index.html" lang="en"
-        >Web<span class="logo logo-white">Studio</span></a>
-      <address>
-        <ul class="adress">
+      <a class="logo link" href="/index.html" lang="en"
+        >Web<span class="logo-white">Studio</span></a>
+      <address class="adress">
+        <ul class="list">
           <li>
             <a
-              class="adress-link"
+              class="link adress-link"
               href="https://goo.gl/maps/RNKM9JBZ4Xh2mu4V6"
               rel="noreferrer noopener nofollow"
               target="_blank"
               >г. Киев, пр-т Леси Украинки, 26</a>
           </li>
-          <li><a class="adress-mail" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="adress-tel" href="tel:0991111111"> +38 099 111 11 11</a></li>
+          <li><a class="link adress-contact-link" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="link adress-contact-link" href="tel:0991111111"> +38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
